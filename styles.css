@@ -1,78 +1,116 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400&display=swap');
 
-:root{
+:root {
     --primary-color: #60a5fa;
+    --off-white:#E5E7EB;
 }
 
-body{
+body {
     font-family: 'Raleway', sans-serif;
 }
 
 /* containers */
-.container{
+.container {
     padding: 0rem 1rem;
 }
 
-.container-center{
+.container-center {
     max-width: 600px;
     margin: auto;
 }
 
-hr{
+hr {
     margin: 2rem 0rem
 }
 
 /* links */
-.link{
+.link {
     text-decoration: none;
     /* padding: top right bottom left; top one will automatically be applied to bottom, similarly right to left */
     padding: 0.5rem 1rem;
 }
 
-.link-primary{
-    background-color:var(--primary-color);
+.link-primary {
+    background-color: var(--primary-color);
     border-radius: 0.5rem;
-    color:white;
+    color: white;
 }
 
-.link-secondary{
-    color:var(--primary-color);
+.link-secondary {
+    color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
 }
 
 /* lists */
 
-.list-non-bullet{
+.list-non-bullet {
     list-style: none;
 }
 
-.list-item-inline{
+.list-item-inline {
     display: inline;
     padding: 0rem 0.5rem;
 }
 
 /* navigation */
-.navigation{
+.navigation {
     background-color: var(--primary-color);
-    color:white;
+    color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
 }
 
-.navigation .nav-brand{
+.navigation .nav-brand {
     font-weight: bold;
     font-size: 1.2rem;
 }
 
-.navigation .link{
-    color:white;
+.navigation .link {
+    color: white;
 }
 
-.navigation .nav-pills{
+.navigation .nav-pills {
     text-align: right;
 }
 
-.navigation .link-active{
-    font-weight:bold;
+.navigation .link-active {
+    font-weight: bold;
 }
+
+/* header */
+
+.hero {
+    padding: 2rem;
+}
+
+.hero .hero-img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.hero .hero-heading .heading-inverted {
+    color: var(--primary-color);
+}
+
+/* sections */
+
+.section{
+    padding: 2em;
+}
+
+.section h1 {
+    text-align: center;
+}
+
+.section-off-white p{
+    background-color: var(--off-white);
+}
+
