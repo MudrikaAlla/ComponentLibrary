@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/styles.css" rel="stylesheet">
+    <title>Component Library</title>
+</head>
+
+<body>
+    <h1>Welcome to Mudrika's Component Library</h1>
+    <p>Hi! I am Mudrika. I am attending neogcamp to learn ReactJs. This is a compenent library for me to make my
+        projects easier.</p>
+
+    <hr>
+
+    <h2>Typography</h2>
+
+    <h1>This is the biggest heading</h1>
+    <h2>This is the second biggest heading</h2>
+    <p>This is the normal text</p>
+    <small>This is relatively small</small>
+
+    <hr>
+
+    <h2>Containers</h2>
+
+    <h3>Fluid Container</h3>
+    <div class="container container-fluid">This is a fluid container. It occupies full width of the page</div>
+
+    <h3>Center Container</h3>
+    <div class="container container-center">This is a center container. It occupies given width and content is centered.
+    </div>
+
+    <hr>
+
+    <h2>Links</h2>
+    <a href="#" class="link link-primary">Primary Links</a>
+    <a href="#" class="link link-secondary">Secondary Links</a>
+
+    <hr>
+
+    <h2>Lists</h2>
+    <h3>This is an unordered list. This will not have a bullet</h3>
+    <ul class="list-non-bullet">
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+    </ul>
+
+    <h3>This is an unordered inline list</h3>
+    <ul class="list-non-bullet">
+        <li class="list-item-inline">Inline Item One</li>
+        <li class="list-item-inline">Inline Item Two</li>
+        <li class="list-item-inline">Inline Item Three</li>
+    </ul>
+
+    <h3>Reverse Ordered List</h3>
+    <ol reversed>
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+    </ol>
+
+    <hr>
+
+    <h2>Nav Bar</h2>
+    <p>This is usually seen on top of pages. It contains links to other pages or links to parts of the same page.</p>
+    <nav class="navigation container">
+        <div class="nav-brand">Mudrika Alla</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="">Home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link " href="">Projects</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="">Blog</a>
+            </li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <h2>Header</h2>
+    <header class="hero">
+        <img class="hero-img" src="/images/hero.svg" />
+        <!-- color code: #60a5fa , rgba(96,165,250,255)-->
+        <h1 class="hero-heading">Heading inside header<span class="heading-inverted">(also called hero)</span></h1>
+    </header>
+
+    <hr>
+
+    <h2>Sections</h2>
+    <p>A section is used to separate parts of pages. In marketing websites you would have seen a header followed by
+        sections of features, team, pricing, contact info etc.</p>
+    <section class="section">
+        <div class="container">
+            <h1>Normal Section</h1>
+            <p>This section has white background</p>
+        </div>
+    </section>
+
+    <section class="section section-off-white">
+        <div class="container">
+        <h1>Off-White Section</h1>
+        <p>This section has grey background</p>
+    </div>
+    </section>
+
+    <hr>
+
+    <h3>Footer</h3>
+
+    <footer class="footer">
+        <div class="footer-header">Some small heading inside footer</div>
+        <ul class="list-non-bullet social-links">
+            <li class="list-item-inline"><a class="links" href=""></a>SocialOne</a></li>
+            <li class="list-item-inline"><a class="links" href=""></a>SocialTwo</a></li>
+            <li class="list-item-inline"><a class="links" href=""></a>SocialThree</a></li>
+        </ul>
+    </footer>
+
+    <!-- <div style="height:30vh;"></div> -->
+</body>
+
+</html>
